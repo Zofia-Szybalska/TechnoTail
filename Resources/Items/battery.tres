@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://4crpqr8p8tqm"]
+
+[ext_resource type="Script" path="res://Resources/item.gd" id="1_3na71"]
+[ext_resource type="Texture2D" uid="uid://bj1cu53yg8dxv" path="res://Assets/Free-Cyberpunk-Resource-Pixel-Art-32x32-Icons/1 Icons/Icon14_24.png" id="2_h4eua"]
+
+[resource]
+script = ExtResource("1_3na71")
+sprite = ExtResource("2_h4eua")
+name = "Bateria"
+description = "Zwykła bateria"

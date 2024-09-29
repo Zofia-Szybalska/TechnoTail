@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://dwxndgpn1cxkx"]
+
+[ext_resource type="Script" path="res://Resources/item.gd" id="1_hnrht"]
+[ext_resource type="Texture2D" uid="uid://kgbgngu64deo" path="res://Assets/Free-Cyberpunk-Resource-Pixel-Art-32x32-Icons/1 Icons/Icon14_03.png" id="2_u0nhy"]
+
+[resource]
+script = ExtResource("1_hnrht")
+sprite = ExtResource("2_u0nhy")
+name = "Drut"
+description = "Długi metalowy drut, może się do czegoś przyda?"

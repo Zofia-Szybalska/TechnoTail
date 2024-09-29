@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://1m5x3d6ylk3c" path="res://icon.svg" id="2_oe405"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_h8306"]
-radius = 215.761
+radius = 136.092
 
 [node name="PickableItem" type="Node2D"]
 script = ExtResource("1_q1hvu")

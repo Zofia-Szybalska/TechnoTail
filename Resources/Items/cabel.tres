@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://ctyvhwgbtj0e3"]
+
+[ext_resource type="Script" path="res://Resources/item.gd" id="1_qfg2u"]
+[ext_resource type="Texture2D" uid="uid://b7d4h5eltfaou" path="res://Assets/Free-Cyberpunk-Resource-Pixel-Art-32x32-Icons/1 Icons/Icon14_02.png" id="2_qgnf2"]
+
+[resource]
+script = ExtResource("1_qfg2u")
+sprite = ExtResource("2_qgnf2")
+name = "Kabel"
+description = "Dzięki niemu można podłaczyć coś do prądu, przydatna rzecz."

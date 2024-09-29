@@ -22,7 +22,7 @@ func show_inventory():
 	get_tree().paused = true
 	visible = true
 	if item_inserted:
-		label.text = "You have fixed this already!"
+		label.text = "Ten obiekt jest już naprawiony!"
 	else:
 		for item in PlayerStats.items:
 			var instanced_item = item_cell.instantiate()
@@ -56,9 +56,9 @@ func _on_submit_button_pressed():
 		if selected_item.name == needed_item.name:
 			use_item()
 		else:
-			show_error("That's a wrong item!")
+			show_error("To zły przemiot!")
 	else:
-		show_error("Please choose an item")
+		show_error("Prosze wybierz przedmiot")
 
 func _on_button_pressed():
 	hide_inventory()

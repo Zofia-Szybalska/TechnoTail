@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://c406i1ygtydmr"]
+
+[ext_resource type="Script" path="res://Resources/item.gd" id="1_gc205"]
+[ext_resource type="Texture2D" uid="uid://2vrrsufpd3rj" path="res://Assets/Free-Cyberpunk-Resource-Pixel-Art-32x32-Icons/1 Icons/Icon14_35.png" id="2_h0n5p"]
+
+[resource]
+script = ExtResource("1_gc205")
+sprite = ExtResource("2_h0n5p")
+name = "Rurka"
+description = "Metalowa rurka"

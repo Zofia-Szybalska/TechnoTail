@@ -10,8 +10,10 @@ script = ExtResource("1_ass78")
 layout_mode = 2
 
 [node name="textRect" type="TextureRect" parent="VBoxContainer"]
+custom_minimum_size = Vector2(128, 128)
 layout_mode = 2
 texture = ExtResource("2_hd0d6")
+expand_mode = 5
 
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2

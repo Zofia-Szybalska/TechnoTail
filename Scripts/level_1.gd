@@ -4,7 +4,10 @@ extends Node2D
 
 
 func _ready():
-	PlayerStats.add_item(load("res://Resources/Items/test_item.tres"))
+	PlayerStats.add_item(load("res://Resources/Items/cabel.tres"))
+	PlayerStats.add_item(load("res://Resources/Items/wire.tres"))
+	PlayerStats.add_item(load("res://Resources/Items/battery.tres"))
+	PlayerStats.add_item(load("res://Resources/Items/pipe.tres"))
 
 func _process(_delta):
 	if Input.is_action_just_pressed("inventory"):

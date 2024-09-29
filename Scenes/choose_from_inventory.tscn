@@ -50,7 +50,7 @@ layout_mode = 2
 [node name="Label" type="Label" parent="Panel conteiner/VBoxContainer/MarginContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 30
-text = "Choose an item"
+text = "Wybierz przedmiot"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -76,7 +76,7 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 30
-text = "Submit"
+text = "Napraw"
 
 [node name="ErrorLabel" type="Label" parent="Panel conteiner/VBoxContainer"]
 visible = false
