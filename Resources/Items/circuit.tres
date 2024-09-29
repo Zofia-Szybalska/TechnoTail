@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://e7t5loyvmktn"]
+
+[ext_resource type="Script" path="res://Resources/item.gd" id="1_wlb5h"]
+
+[resource]
+script = ExtResource("1_wlb5h")
+name = "Circuit"
+description = "A circuit"

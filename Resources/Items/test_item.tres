@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://bfykt26gkdl87"]
+
+[ext_resource type="Script" path="res://Resources/item.gd" id="1_3ryj2"]
+[ext_resource type="Texture2D" uid="uid://1m5x3d6ylk3c" path="res://icon.svg" id="2_p0i5k"]
+
+[resource]
+script = ExtResource("1_3ryj2")
+sprite = ExtResource("2_p0i5k")
+name = "Test item name"
+description = "A really important test item"
